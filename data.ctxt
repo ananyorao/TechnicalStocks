@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ input()
+comment1.params=
+comment1.target=void\ c_add()
+comment10.params=d
+comment10.target=boolean\ time(java.lang.String)
+comment2.params=
+comment2.target=void\ c_read()
+comment3.params=
+comment3.target=void\ delay()
+comment4.params=
+comment4.target=boolean\ net()
+comment5.params=num
+comment5.target=void\ asign(int)
+comment6.params=comp
+comment6.target=void\ ema(int)
+comment7.params=
+comment7.target=void\ f_store()
+comment8.params=
+comment8.target=void\ f_read()
+comment9.params=
+comment9.target=void\ backup()
+numComments=11

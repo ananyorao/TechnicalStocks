@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment1.params=
+comment1.target=void\ candlestick()
+comment2.params=
+comment2.target=void\ marubozu()
+comment3.params=
+comment3.target=void\ doji()
+comment4.params=
+comment4.target=void\ spinning_top()
+comment5.params=
+comment5.target=void\ rsi()
+comment6.params=
+comment6.target=void\ engulfing()
+comment7.params=
+comment7.target=void\ bb()
+numComments=8

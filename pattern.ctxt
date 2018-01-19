@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ main()
+comment0.text=static\ int\ companies\=1;\r\n\ \ \ \ static\ String\ company[]\={"ratna"};\r\nstatic\ float\ data[][][]\={{{100,111,106,110},{95,105,100,100},{95,105,100,100},{95,105,105,100},{95,105,105,100}}};
+comment1.params=
+comment1.target=void\ disp()
+comment10.params=comp\ day
+comment10.target=boolean\ engulfing(int,\ int)
+comment11.params=comp
+comment11.target=void\ bb(int)
+comment2.params=
+comment2.target=void\ buy2()
+comment3.params=
+comment3.target=void\ buy1()
+comment4.params=
+comment4.target=void\ buy3()
+comment5.params=comp
+comment5.target=void\ snr(int)
+comment6.params=comp\ day\ op
+comment6.target=boolean\ marubozu(int,\ int,\ int)
+comment6.text=static\ void\ peak_valley()throws\ IOException\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ input();\r\n\ \ \ \ \ \ \ \ for(int\ a\=0;a<companies;a++)\r\n\ \ \ \ \ \ \ \ {\r\n\ \ \ \ \ \ \ \ \ \ \ \ if(data[a][4][1]>data[a][3][1]&&data[a][3][1]>data[a][2][1]&&\ \ \ //4>3>2>1<0\ ->valley\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ data[a][2][1]>data[a][1][1]&&data[a][1][1]<data[a][0][1]){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(data[a][0][1]>data[a][4][1])\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println(company[a]);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ \ \ \ \ else\ if(data[a][5][1]>data[a][4][1]&&data[a][4][1]>data[a][3][1]&&data[a][3][1]>data[a][2][1]&&\ \ \ //5>4>3>2<1<0\ ->\ peak\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ data[a][2][1]<data[a][1][1]&&data[a][1][1]<data[a][0][1]){\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ if(data[a][0][1]>data[a][5][1])\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ System.out.println(company[a]);\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }\r\n\ \ \ \ \ \ \ \ }\r\n}
+comment7.params=comp\ day
+comment7.target=boolean\ doji(int,\ int)
+comment8.params=comp\ day\ op
+comment8.target=boolean\ spinning_top(int,\ int,\ int)
+comment9.params=comp
+comment9.target=void\ rsi(int)
+numComments=12
